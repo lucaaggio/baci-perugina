@@ -9,8 +9,16 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-h1 {
-  font-size: 1.5em;
+img {
+  position: absolute;
+  max-width: 384px;
+  left: 0;
+  top: 0;
+  opacity: 0.1;
+  z-index: -9;
+}
+p {
+  font-size: 1.2em;
 }
 div {
   padding: 0 1em;
