@@ -6,8 +6,6 @@ fetch("frasi.json")
   .then((json) => {
     let frase = JSON.stringify(json.frasi[random].frase);
     let autore = json.frasi[random].autore;
-    console.log(frase);
-    console.log(autore);
     document.getElementById("frase").innerText = frase;
     document.getElementById("autore").innerText = autore;
   })
