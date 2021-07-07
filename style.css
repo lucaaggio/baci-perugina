@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 html {
   max-width: 384px;
 }
@@ -5,24 +9,29 @@ body {
   font-family: sans-serif;
   width: 384px;
   max-width: 384px;
+
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
 img {
-  position: absolute;
   max-width: 384px;
-  left: 0;
-  top: 0;
-  opacity: 0.1;
-  z-index: -9;
 }
 p {
   font-size: 1.2em;
+  padding-top: 1em;
 }
-div {
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 0 1em;
 }
 #autore {
   font-weight: 600;
+}
+.black {
+  height: 12px;
+  width: 200px;
+  background: #000;
 }
